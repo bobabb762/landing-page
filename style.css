@@ -2,11 +2,15 @@ body {
     background-color: rgb(102, 3, 194);
     display: flex;
     flex-direction: column;
+    max-width: 100vw;
+    height: 100vh ;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    flex-shrink: 0;
+    padding-left: 300px;
 }
 
 .logo {
@@ -14,6 +18,90 @@ body {
     height: 100px;
     width: 100px;
 }
+
+.sec1 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 300px;
+}
+
+h3 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.sec1 p {
+    font-size: 18px;
+    color: #f9faf8;
+}
+.image {
+    display: flex;
+     width: 400px;
+    height: auto;
+}
+
+.sec2 {
+    background-color: antiquewhite;
+    padding-left: 300px;
+}
+
+.sec2 p {
+    color: black;
+}
+
+.ga img {
+    width: auto;
+    height: auto;
+    border: 2px solid goldenrod;
+    }
+
+.sec2top {
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    background-color:antiquewhite ;
+}
+
+.sec2body {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.ga {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 20%;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 36px;
+    color: navy;
+}
+
+.sec3 {
+    background-color: darkseagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 300px;
+}
+
+.sec3 p {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote {
+    display: flex;
+    width: 60%;
+
+}
+
+
+
 
 a {
     text-decoration: none;
