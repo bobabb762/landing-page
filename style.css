@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(102, 3, 194);
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    height: 100px;
+    width: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+    font-size: 20px;
+}
